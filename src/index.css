@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+body {
+  margin: 0;
+ text-decoration: none;
+ 
+}
+:root {
+
+  --background-color: rgb(7, 30, 46);
+  --color: rgb(191, 191, 209);
+  --text-h-two: rgb(90, 153, 211);
+}
+
+.body {
+  background-image: url(../src/assets/images.jpeg);
+  background: var(--background-color);
+
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a:hover {
+  background-color:rgb(65, 73, 77);
+  color: var(--color);
+  transition-duration: 2s;
+}
+#me {
+  width: 20rem;
+  height: 25rem;
+  left: calc(50% - 10rem);
+  margin-top: 10px;
+  border-radius: 20px 20px 0 0 ;
+}

@@ -1,0 +1,177 @@
+
+.container {
+    margin-top: 12rem;
+}
+#image-name {
+
+    width: 20rem;
+    height: 25rem;
+    margin-top: 10px;
+    border-radius: 20px 20px 0 0 ;
+  
+}
+.image-description {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+.about-me {
+    margin-top: 3rem;
+    width: 25rem;
+    height: 10rem;
+    background-color: #60A8DD;
+    border-radius: 10px;
+    color:ghostwhite;
+    text-align: center;
+}
+.articles {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 3rem;
+}
+.image-background {
+    display: flex;
+}
+.backround {
+    width: 30rem;
+    background-color: rgb(40, 106, 160);
+    height: 24rem;
+    margin-left: 5rem;
+    margin-top: 1rem;
+}
+#background-description {
+
+    padding: 5px;
+    color: var(--color);
+}
+#backround-title {
+    text-align: center;
+    font-weight: 900;
+    font-size: 23px;
+    color: var(--color);
+}
+.image-description h2 {
+
+    text-align: center;
+    margin-bottom: 3rem;
+    color: var(--text-h-two);
+}
+.award {
+    height: 4rem;
+    width: 2rem;
+    align-self: center;
+}
+.place-item {
+    place-items: center;
+}
+@media screen and (max-width: 600px) {
+    
+    .image-description h2 {
+
+        margin-top: 10rem;
+     }
+    .contact {
+        display: flex;
+       flex-direction: column;
+        margin-bottom: 7rem;
+        text-align: center;
+        margin-left: 2rem;
+    }
+
+    .articles {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        margin-bottom: 3rem;
+    }
+   
+    .image-background {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .backround {
+        width: 18rem;
+        background-color: rgb(40, 106, 160);
+        height: max-content;
+        margin-left: 1.3rem;
+        margin-top: 1rem;
+    }
+
+    #image-name {
+
+        width: 18rem;
+        height: 25rem;
+        margin-top: 10px;
+        border-radius: 20px 20px 0 0 ;
+        margin-left: 1rem;
+      
+    }
+
+    .about-me {
+        margin-top: 3rem;
+        width: 18rem;
+        height: 10rem;
+        margin-left: 1rem;
+        background-color: #60A8DD;
+        border-radius: 10px;
+        color:ghostwhite;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 610px) {
+    
+    .contact {
+        display: flex;
+       flex-wrap: wrap;
+        margin-bottom: 7rem;
+        text-align: center;
+        margin-left: 2rem;
+    }
+
+    .articles {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        margin-bottom: 3rem;
+        margin-left: 5rem;
+    }
+   
+    .image-background {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .backround {
+        width: 30rem;
+        background-color: rgb(40, 106, 160);
+        height: max-content;
+        margin-left: 5rem;
+        margin-top: 1rem;
+    }
+
+    #image-name {
+
+        width: 23rem;
+        height: 25rem;
+        margin-top: 10px;
+        border-radius: 20px 20px 0 0 ;
+        margin-left: 1rem;
+      
+    }
+
+    .about-me {
+        margin-top: 3rem;
+        width: 20rem;
+        height: 10rem;
+        margin-left: 1rem;
+        background-color: #60A8DD;
+        border-radius: 10px;
+        color:ghostwhite;
+        text-align: center;
+    }
+
+    .image-description h2 {
+
+       margin-top: 15rem;
+    }
+}

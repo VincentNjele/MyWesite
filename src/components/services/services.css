@@ -1,0 +1,129 @@
+.service-collection {
+
+    width: 40rem;
+    background-color: #2b707a;
+    height: 27rem;
+    margin-top: 1rem;
+}
+.icon-and-description {
+    display: flex;
+    gap: 0.9rem;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    color: var(--color);
+}
+.service-collection-two {
+
+    width: 30rem;
+    background-color: #2b707a;
+    height: 27rem;
+    margin-top: 1rem;
+
+}
+.services{
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 4rem;
+}
+#mobile {
+    text-align: center;
+    color: var(--color);
+    padding-top: 1rem;
+}
+#web {
+
+    text-align: center;
+    color: var(--color);
+    padding-top: 1rem;
+}
+#services-on-offer {
+
+    text-align: center;
+    color: var(--text-h-two);
+}
+#what-ican-do {
+
+    text-align: center;
+    color: rgb(15, 4, 109);
+}
+
+.service-collection-two:hover {
+
+ 
+    background-color: #12353a;
+    transition-duration: 2s;
+
+}
+
+.service-collection:hover{
+
+ 
+    background-color: #12353a;
+    transition-duration: 2s;
+
+}
+@media screen and (max-width: 600px) {
+    
+    .service-collection {
+
+        width: 18rem;
+        margin-left: 1.2rem;
+        background-color: #2b707a;
+        height:max-content;
+        margin-top: 1rem;
+    }
+   
+    .services{
+
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        margin-bottom: 4rem;
+    }
+    .service-collection-two {
+
+        width: 18rem;
+        margin-left: 1.2rem;
+        background-color: #2b707a;
+        height: max-content;
+        margin-top: 1rem;
+    
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    
+   
+   
+    .services{
+
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        margin-bottom: 4rem;
+        margin-left: 3rem;
+    }
+    
+}
+@media screen and (min-width: 610px) {
+    
+   
+   
+    .services{
+
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        margin-bottom: 4rem;
+        margin-left: 3rem;
+    }
+
+    #services-on-offer {
+
+       margin-top: 15rem;
+    }
+   
+    
+}

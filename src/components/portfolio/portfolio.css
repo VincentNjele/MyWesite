@@ -1,0 +1,97 @@
+.individual-portfolio {
+    background-color: #163263;
+    width: max-content;
+    text-align: center;
+    padding: 20px;
+    height: max-content;
+    border-radius: 25px;
+}
+#portfolio-image {
+
+    height: 20rem;
+    width: 20rem;
+}
+
+#github-portilio {
+    width: max-content;
+    color: var(--color);
+    border-radius: 4px;
+    background: transparent;
+    border: 1px solid rgb(24, 148, 231);
+    padding: 5px;
+    text-decoration: none;
+  }
+
+#live-demo {
+
+    text-decoration: none;
+    width: max-content;
+    color: var(--color);
+    border-radius: 4px;
+    padding: 5px;
+    background-color: rgb(24, 148, 231);
+}
+.links {
+    margin-top: 2rem;
+}
+#github-portilio:hover {
+   
+    background-color:rgb(65, 73, 77);
+    color: var(--color);
+    transition-duration: 2s;
+}
+
+#live-demo:hover{
+
+    background-color:rgb(65, 73, 77);
+    color: var(--color);
+    transition-duration: 1s;
+}
+#project-title {
+
+    color: var(--color);
+    padding: 7px 0 7px 0;
+}
+  
+.portfolio-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+
+}
+#projects {
+    color: var(--color);
+    text-align: center;
+    margin-bottom: 5rem;
+}
+#portfolio-intro {
+
+    margin-top: 20rem;
+    color: var(--text-h-two);
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 600px) {
+    
+    .portfolio-wrapper {
+        display: flex;
+       flex-direction: column;
+        gap: 1rem;
+    
+    }
+
+    .individual-portfolio {
+        background-color: #163263;
+        width: max-content;
+        text-align: center;
+        padding: 20px;
+        height: max-content;
+        border-radius: 25px;
+    }
+    #portfolio-image {
+
+        height: 20rem;
+        width: 13rem;
+    }
+}

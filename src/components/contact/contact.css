@@ -1,0 +1,67 @@
+.contact-me {
+
+    background-color: #163263;
+    width: max-content;
+    text-align: center;
+    padding: 8px;
+    height: max-content;
+    border-radius: 25px;
+    color: var(--color);
+}
+
+.contact {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 7rem;
+}
+#contact-icon {
+    height: 4rem;
+    width: 2rem;
+    align-self: center;
+}
+.talk-to-me {
+    color: var(--text-h-two);
+    text-align: center;
+    margin-top: 13rem;
+    margin-bottom: 1rem;
+}
+#reach-me {
+    text-align: center;
+    margin-bottom: 7rem;
+    color: var(--color);
+}
+@media screen and (max-width: 600px) {
+    
+    .contact {
+        display: flex;
+       flex-direction: column;
+        margin-bottom: 7rem;
+        text-align: center;
+        margin-left: 2rem;
+    }
+
+}
+@media screen and (max-width: 1024px) {
+    
+    .contact {
+        display: flex;
+        margin-left: 4rem;
+        margin-bottom: 7rem;
+        text-align: center;
+        margin-left: 2rem;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+    
+    .contact {
+        display: flex;
+        margin-left: 9rem;
+        margin-bottom: 7rem;
+        text-align: center;
+        margin-left: 2rem;
+    }
+
+}
