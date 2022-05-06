@@ -12,6 +12,7 @@
 .contact {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 1rem;
     margin-bottom: 7rem;
 }
@@ -37,31 +38,9 @@
         display: flex;
        flex-direction: column;
         margin-bottom: 7rem;
-        text-align: center;
-        margin-left: 2rem;
-    }
-
-}
-@media screen and (max-width: 1024px) {
-    
-    .contact {
-        display: flex;
-        margin-left: 4rem;
-        margin-bottom: 7rem;
-        text-align: center;
-        margin-left: 2rem;
+        place-items: center;
+        
     }
 
 }
 
-@media screen and (min-width: 1024px) {
-    
-    .contact {
-        display: flex;
-        margin-left: 9rem;
-        margin-bottom: 7rem;
-        text-align: center;
-        margin-left: 2rem;
-    }
-
-}

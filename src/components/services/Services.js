@@ -81,7 +81,7 @@ export const Services = () => {
         <h5>Mobile applications using Flutter and C#</h5>
       </div>
       
-    </article>
+     </article>
 
        </div>
        </div>

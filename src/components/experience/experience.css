@@ -30,6 +30,8 @@
 .elements {
 
     display: flex;
+    flex-wrap: wrap;
+    align-self: center;
     gap: 8rem;
     margin-bottom: 4rem;
 }

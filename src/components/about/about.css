@@ -26,11 +26,15 @@
 }
 .articles {
     display: flex;
+    flex-wrap: wrap;
+    align-self: center;
     gap: 1rem;
     margin-bottom: 3rem;
 }
 .image-background {
     display: flex;
+    flex-wrap: wrap;
+    align-self: center;
 }
 .backround {
     width: 30rem;
@@ -134,7 +138,7 @@
         flex-wrap: wrap;
         gap: 1rem;
         margin-bottom: 3rem;
-        margin-left: 5rem;
+      
     }
    
     .image-background {

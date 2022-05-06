@@ -19,7 +19,7 @@ export const Portfolio = () => {
 
         <article>
         <img id='portfolio-image' src={image1} alt="portfolio"></img>
-          <h4 id='project-title'>Lekkit Property using React</h4>
+          <h4 id='project-title'>Lekkit Property </h4>
         <div className='links'>
           <a id='github-portilio' href='https://github.com/VincentNjele/lekkit-app'>Github</a>
           <a id='live-demo' href='https://master.d230644og42rme.amplifyapp.com/'>Live Demo</a>
