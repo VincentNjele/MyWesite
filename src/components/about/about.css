@@ -28,16 +28,16 @@
     text-align: center;
 }
 .articles {
-    display: flex;
-    flex-wrap: wrap;
-    align-self: center;
+ 
+   display: flex;
+   align-self: center;
     gap: 1rem;
     margin-bottom: 3rem;
 }
 .image-background {
     display: flex;
     flex-wrap: wrap;
-    margin: 0 0rem 0 0rem;
+   align-self: center;
 
 }
 .backround {
@@ -90,9 +90,12 @@
     .articles {
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        position: relative;
         gap: 1rem;
         margin-bottom: 3rem;
     }
+   
    
     .image-background {
         display: flex;
@@ -140,9 +143,8 @@
     }
 
     .articles {
-        display: flex;
-        flex-wrap: wrap;
-        width: 100%;
+       
+        text-align: center;
         gap: 1rem;
         margin-bottom: 3rem;
       
@@ -153,17 +155,16 @@
         flex-wrap: wrap;
     }
     .backround {
-        width: 48%;
+        width: 30rem;
         background-color: rgb(40, 106, 160);
         height: max-content;
-        float: right;
         margin-left: 1rem;
         margin-top: 1rem;
     }
 
     #image-name {
 
-        width: 48%;
+        width: 30rem;
         height: 25rem;
         margin-top: 10px;
         float: left;
