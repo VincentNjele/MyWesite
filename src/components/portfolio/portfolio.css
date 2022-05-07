@@ -6,6 +6,11 @@
     height: max-content;
     border-radius: 25px;
 }
+.individual-portfolio:hover {
+
+    transition-duration: 2s;
+    background-color: #254e94;
+}
 #portfolio-image {
 
     height: 20rem;
@@ -28,6 +33,7 @@
     width: max-content;
     color: var(--color);
     border-radius: 4px;
+    margin-left: 2rem;
     padding: 5px;
     background-color: rgb(24, 148, 231);
 }

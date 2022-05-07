@@ -8,6 +8,11 @@
     border-radius: 25px;
     color: var(--color);
 }
+.contact-me a {
+
+    text-decoration: none;
+    color: var(--color);
+}
 
 .contact {
     display: flex;
