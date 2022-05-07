@@ -77,10 +77,9 @@
     }
    
     .services{
-
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        place-items: center;
         gap: 1rem;
         margin-bottom: 4rem;
     }
