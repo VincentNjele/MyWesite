@@ -60,9 +60,6 @@ export const About = () => {
           </article>
         </div>
       </div>
-
-      <div className=''>
-      </div>
     </div>
 
   )

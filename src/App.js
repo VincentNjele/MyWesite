@@ -7,6 +7,7 @@ import { Tabs } from './components/header/Tabs';
 import Home from './components/Home';
 import { Portfolio } from './components/portfolio/Portfolio';
 import { Services } from './components/services/Services';
+import { Space } from './components/Space';
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
   <Headers />
   <Tabs />
   <About />
+  <Space />
   <Experience />
   <Services />
   <Portfolio />

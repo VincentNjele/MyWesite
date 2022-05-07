@@ -1,6 +1,7 @@
 
 .container {
     margin-top: 12rem;
+    margin-bottom: 14rem;
 }
 #image-name {
 
@@ -187,5 +188,9 @@
     .image-description h2 {
 
        margin-top: 15rem;
+    }
+    .container {
+        margin-top: 12rem;
+        margin-bottom: 14rem;
     }
 }

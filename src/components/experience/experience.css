@@ -1,3 +1,7 @@
+.experience h2{
+    margin-top: 10rem;
+}
+
 .elements-wrapper {
 
     height: max-content;
@@ -23,10 +27,11 @@
     padding-left: 40px;
 }
 .elements-wrapper h2 {
-
+    
     margin-bottom: 2rem;
     text-align: center;
 }
+
 .elements {
 
     display: flex;
@@ -36,11 +41,14 @@
     margin-bottom: 4rem;
 }
 
-#my-experience {
+#my-work-experience{
+
+    margin-top: 12rem;
     color: var(--text-h-two);
     margin-bottom: 1rem;
     text-align: center;
 }
+
 #work-experience {
 
     text-align: center;
@@ -101,8 +109,9 @@
         margin-left: 1.3rem;
      
     }
-    #my-experience {
-        margin-top: 10rem;
+   
+    .experience {
+        margin-top: 13rem;
     }
   
 }
