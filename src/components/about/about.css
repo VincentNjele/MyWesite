@@ -101,6 +101,7 @@
     .image-background {
         display: flex;
         flex-wrap: wrap;
+        justify-content: center;
     }
     .backround {
         width: 18rem;

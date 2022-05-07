@@ -68,6 +68,7 @@
     .elements {
         display: flex;
         flex-direction: column;
+        justify-content: center;
         gap: 8rem;
         margin-bottom: 4rem;
     }
