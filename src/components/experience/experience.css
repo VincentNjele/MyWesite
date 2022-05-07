@@ -88,9 +88,10 @@
     .elements {
         display: flex;
         flex-wrap: wrap;
+        justify-content: center;
         gap: 2rem;
         margin-bottom: 4rem;
-        margin-left: 5rem;
+        margin-left: 1rem;
     }
     .elements-wrapper {
 
