@@ -1,7 +1,6 @@
 import React from 'react'
-import header from './header.css'
 
-import CV from '../../assets/VincentNjeleResume.pdf'
+import CV from '../../assets/Vincent-Njele Resume.pdf'
 
 export const Details = () => {
   return (
